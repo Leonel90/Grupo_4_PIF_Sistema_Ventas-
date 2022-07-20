@@ -16,35 +16,36 @@
     <!--Barra de navegación-->
     <header>
         <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="./img/logo.png"  height="50px" alt="logo">
             <div class="container">
                 <a href="#" class="navbar-brand">
-                    <strong>Tienda Online</strong>
+                    <strong>Inicio</strong>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarHeader">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="Home.html" class="nav-link active">Catalogo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contacto</a>
+                            <a href="./html/catalogo.html" class="nav-link active">Catalogo</a>
                         </li>
                     </ul>
-                    <a href="carrito.php" class="btn btn-primary">Carrito</a>
+                    <a href="/html/login.html" class="nav-link active text-white">Registrarse</a>
+                    <a href="/html/login.html" class="nav-link active text-white">Iniciar Sesion</a>
+                    <a href="/html/login.html" class="btn btn-danger">Carrito</a>
                 </div>
             </div>
         </div>
     </header>
+    <br>
         <!--Contenido-->
         <main>
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="/img-acce/CABLE-DE-DATOS-PARA-DISCO-SATA-300x300.jpg">
+                            <img src="./img/CABLE-DE-DATOS-PARA-DISCO-SATA-300x300.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">CABLE DE DATOS PARA DISCO SATA</h5>
                                 <p class="card-text">$1,61 + iva</p>
@@ -60,7 +61,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="/img-acce/TECLADO-LENOVO-T400-T410-300x300.png">
+                            <img src="./img/TECLADO-LENOVO-T400-T410-300x300.png">
                             <div class="card-body">
                                 <h5 class="card-title">TECLADO LENOVO T400 T410</h5>
                                 <p class="card-text">$3,19 + iva</p>
@@ -76,7 +77,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="/img-acce/DTX33GB-1-300x300.png">
+                            <img src="./img/DTX33GB-1-300x300.png">
                             <div class="card-body">
                                 <h5 class="card-title">FLASH MEMORY 32GB KINGSTON DTX/32GB EXODIA USB 3.2</h5>
                                 <p class="card-text">$4,19 + iva</p>
@@ -91,7 +92,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="/img-acce/DTX33GB-1-300x300.png">
+                            <img src="./img/DTX33GB-1-300x300.png">
                             <div class="card-body">
                                 <h5 class="card-title">FLASH MEMORY 128GB KINGSTON DTX/128GB EXODIA USB 3.2</h5>
                                 <p class="card-text">$12,41 + iva</p>
@@ -106,7 +107,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="/img-acce/DISCO-SOLIDO-250GB-KINGSTON-SNVS-250G-NV1-M.2-PCIe-NVMe-35X-FASTER-300x300.png">
+                            <img src="./img/DISCO-SOLIDO-250GB-KINGSTON-SNVS-250G-NV1-M.2-PCIe-NVMe-35X-FASTER-300x300.png">
                             <div class="card-body">
                                 <h5 class="card-title">DISCO SOLIDO 250GB KINGSTON SNVS-250G NV1 M.2 PCIe NVMe 35X FASTER</h5>
                                 <p class="card-text">$29,93 + iva</p>
@@ -121,7 +122,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="/img-acce/DISCO-DURO-120GB-SOLIDO-ADATA-SU650-2-300x300.png">
+                            <img src="./img/DISCO-DURO-120GB-SOLIDO-ADATA-SU650-2-300x300.png">
                             <div class="card-body">
                                 <h5 class="card-title">DISCO DURO 120GB SOLIDO ADATA SU650</h5>
                                 <p class="card-text">$20,26 + iva</p>
@@ -138,15 +139,28 @@
                 </div>
             </div>
         </main>
+        <br>
     <!--barra inferior "footer"-->
     
     <div class="container-fluid">
-        <div class="row p-5 bg-secondary text-white">
+        <div class="row p-5 bg-dark text-white">
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h3">Direccion</p>
+                <p class="h5 mb-3">SUCURSALES</p>
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#"> > Quito</a>
+                    </div>
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Cuenca</a>
+                    </div>  
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Ambato</a>
+                    </div>  
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Loja</a>
+                    </div>   
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 mb-3">Redes Sociales</p>
+                <p class="h5 mb-3">REDES SOCIALES</p>
                 <div class="mb-3">
                     <a class="text-white text-decoration-none" href="#">
                         <img src="/img/facebook-logo-3-1.png" alt="facebook" height="25px" width="25px" />
@@ -167,10 +181,28 @@
                 </div>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">Contacto</p>
+                <p class="h5 mb-3">SOBRE NOSOTROS</p>
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#"> > Acerca de</a>
+                    </div>
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Trabaja con Nosotros</a>
+                    </div>  
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Contáctanos</a>
+                    </div>  
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">Trabaja con Nosotros</p>
+                <p class="h5 mb-3">SERVICIO AL CLIENTE</p>
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#"> > Preguntas Frecuentes</a>
+                    </div>
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Terminos y Condiciones</a>
+                    </div>  
+                    <div class="mb-3">
+                    <a class="h6 text-white text-decoration-none" href="#">> Politicas de Privacidad</a>
+                    </div>  
             </div>
             <div class="col-xs-12 pt-5">
                 <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
