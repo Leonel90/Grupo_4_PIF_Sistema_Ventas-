@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180def, #4ba9e9, #4ba9e9 50%
+       #fff 50%, #fff 100%
+    );
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500%;
+    background-color: #fff;
+    box-shadow: 0 15px 45px rgba(rgb(207, 87, 87), rgb(51, 104, 51), rgb(106, 106, 170));
+    overflow: hidden;
+}
+
+.card .imgbox{
+    position: relative;
+    min-width: none;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 05s;
+}
+
+.card:hover .imgbox{
+    transform: rotate(-35deg);
+
+}
+
+.card .imgbox img{
+    width: 85%;
+
+}
+
+.card .detalis{
+    position: relative;
+    min-height: 300px;
+}
