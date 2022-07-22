@@ -81,3 +81,7 @@ main{
 .contenido .btn-group{
     color: red;
 }
+
+.card {
+    background-color: rgb(121, 24, 177);
+}
