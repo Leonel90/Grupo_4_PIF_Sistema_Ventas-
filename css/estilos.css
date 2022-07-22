@@ -57,7 +57,7 @@ main{
 }
 
 .contenido .card img{
-    width: 300px;
+    width: 330px;
     *height: 22px;
     
 }
@@ -84,5 +84,5 @@ main{
 }
 
 .card {
-    background-color: rgb(88, 67, 100);
+    background-color: rgb(236, 160, 18);
 }
