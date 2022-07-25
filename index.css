@@ -5,7 +5,8 @@
     font-size: 100%;
     vertical-align: baseline;
 }
-body { 
+body {
+    text-align: center;
     font-family: sans-serif;
 }
 
@@ -315,7 +316,3 @@ footer{
     padding: 40px;
 }
 
-.contenedor-principal p {
-    text-align: center;
-    width: 100%;
-}
