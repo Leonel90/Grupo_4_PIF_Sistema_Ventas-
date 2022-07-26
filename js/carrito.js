@@ -38,7 +38,7 @@
   ]
 
 
-  /*asdasd*/
+  /*carrito*/
   const cards = document.getElementById('cards')
 const items = document.getElementById('items')
 const footer = document.getElementById('footer')
