@@ -49,7 +49,7 @@
 }
 
 .navbar a:hover {
-    background: #e91e63;
+    background: #6797ce;
 }
 
 .header {
@@ -80,10 +80,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #e91e63;
+    border: 2px solid #6797ce;
     color: #fff;
     text-decoration: none;
-    background: #e91e63;
+    background: #6797ce;
 }
 
 .btn:hover {
@@ -127,14 +127,14 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #e91e63;
+    background: #6797ce;
     font-size: 25px;
     margin: 10px 0;
 }
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #e91e63;
+    color: #6797ce;
 }
 
 .box-container .box p {
@@ -176,12 +176,12 @@ p {
     object-fit: cover;
     border-radius: 50%;
     margin-top: -50px;
-    border: 6px solid #e91e63;
+    border: 6px solid #6797ce;
 }
 
 .box-container2 .box h3 {
     font-size: 20px;
-    color: #e91e63;
+    color: #6797ce;
     padding-top: 10px;
 }
 
@@ -194,7 +194,7 @@ p {
 
 .box-container2 .box .stars i {
     font-size: 15px;
-    color: #e91e63;
+    color: #6797ce;
 }
 
 .contact {

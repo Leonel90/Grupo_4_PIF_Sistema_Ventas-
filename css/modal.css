@@ -22,7 +22,7 @@ body {
   transition: all 300ms ease;
 }
 .boton-modal label:hover {
-  background-color: #e91e63;
+  background-color: #6797ce;
 }
 /*:::Fin Boton-Modal:::*/
 
@@ -42,6 +42,28 @@ body {
   align-items: center;
   z-index: 100;
 }
+
+/*formulario modal*/
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #dfe1e6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: rgb(2, 2, 2);
+  background: #ffffff;
+  color: rgb(16, 14, 14);
+}
+
+h2{
+  text-align: center;
+  color: rgb(243, 243, 243);
+  font-size: 25px;
+}
+
 #btn-modal:checked ~ .container-modal {
   display: flex;
 }
@@ -49,7 +71,7 @@ body {
   width: 100%;
   max-width: 400px;
   padding: 20px;
-  background-color: #171717;
+  background-color: #6797ce;
   border-radius: 4px;
 }
 .content-modal h2 {
@@ -75,7 +97,7 @@ body {
   transition: all 300ms ease;
 }
 .content-modal .btn-cerrar label:hover {
-  background-color:  #e91e63;
+  background-color:  #6797ce;
 }
 .cerrar-modal {
   width: 100%;
