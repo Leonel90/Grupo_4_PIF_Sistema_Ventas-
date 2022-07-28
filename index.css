@@ -247,40 +247,6 @@ p {
     }
 }
 
-/* footer*/
-
-footer{
-    width: 100%;
-    padding: 30px 0px;
-    background-color: rgb(13, 13, 13);
-}
-.contenedor-principal{
-    color: azure;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1300px;
-    margin-left: 20px;
-}
-.contenedor-principal a{
-    text-decoration: none;
-    color: #9a9a9a;
-    margin-top: 10px;
-}
-
- .contenedor-principal a:hover{
-    color: white;
-}
-
-.contenedor-principal i{
-    color: #9a9a9a;
-}
-
-.contenedores-secundarios{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-}
 
 /* footer*/
 
@@ -316,4 +282,7 @@ footer{
     flex-direction: column;
     padding: 40px;
 }
-
+.contenedor-principal p{
+    width: 100%;
+    text-align: center;
+}
