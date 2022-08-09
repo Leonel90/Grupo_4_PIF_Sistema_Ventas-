@@ -17,8 +17,13 @@
     font-size: 35px;
     padding: 0 50px;
     font-weight: bold;
+
 }
 
+.carrito{
+    width: 50px;
+    cursor: pointer;
+}
 .items_menu{
     display: flex;
     list-style: none;
