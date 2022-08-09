@@ -170,3 +170,18 @@ body {
     opacity: 0;
     visibility: hidden;
 }
+
+.btn1{
+   background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    color: #222;
+}

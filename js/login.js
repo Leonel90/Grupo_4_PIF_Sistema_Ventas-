@@ -10,6 +10,7 @@ document.addEventListener('click', e => {
     }
 });
 
+/*Vañidacion del formulario login*/
 const nombre = document.getElementById("nombre")
 const email = document.getElementById("email")
 const password = document.getElementById("password")
@@ -40,3 +41,5 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = "Enviado"
     }
 })
+
+/*Simulador ingreso login*/
