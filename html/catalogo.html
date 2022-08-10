@@ -4,7 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/css/estilos.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/ed5264afc7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ed5264afc7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Pantalla Home</title>
     <title>Tienda Online</title>
 
@@ -15,169 +18,102 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    
   </head>
 
   <body>
-    <h1>FullStock</h1>
     <!--Barra de navegación-->
     <header>
-      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img src="../img/logo.png" height="50px" alt="logo" />
-        <div class="container">
-          <a href="../index.html" class="navbar-brand">
-            <strong>Inicio</strong>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarHeader"
-            aria-controls="navbarHeader"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          ></button>           
-          </button>
-          <div class="collapse navbar-collapse" id="navbarHeader">
-           
-            <a href="/html/login.html" class="nav-link active text-white"
-              >Registrarse</a>
-            <a href="/html/login.html" class="nav-link active text-white"
-              >Iniciar Sesion</a>
-           
-            
-
-          </div>
-        </div>
-      </div>
+      <nav class="menu">
+        <label class="logo">Full Stock</label>
+        <ul class="items_menu" id="otroModo">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/html/catalogo.html">Catálogo</a></li>
+          <li><a href="/html/login.html">Registrarse/Iniciar Sesión</a></li>
+        </ul>
+      </nav>
     </header>
     <br />
-    <!--Contenido-->
-    <form>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="AIOS.html"><img src= /img/AIOS.jpg></a>
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="AIOS.html"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="celulares.html"><img src= /img/CELULARES.jpg></a>
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="celulares.html"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="PORTATILES.html"><img src= /img/PORTATILES-IDC.jpg></a>
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="PORTATILES.html"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="EQUIPOS.html"><img src= /img/EQUIPOS.jpg></a>
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="EQUIPOS.html"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="ACCESORIOS.html"><img src= /img/ACCESORIOS.png></a>
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="ACCESORIOS.html"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="IMPRESORAS.html"><img src= /img/IMPRESORAS.jpg></a>
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="IMPRESORAS.html"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </form>
-    <br /><br><br>
+    <!--Contenido-->    	
+    <h2 style="text-align:center">Servicios que Ofrecemos</h2>
+  </div>
+  <div class="container-card">
+  
+  <div class="card">
+  <figure>
+    <img src="https://panel.sumaconsultoria.mx/celumovil/slider/Redmi-note-11-pro-5g-11s.jpg">
+  </figure>
+  <div class="contenido-card">
+    <h3>CELULARES</h3>
+    <p>Los mejores celulares para tu gusto y comodidad de tu bolsillo.</p>
+    <a href="/html/celulares.html">Ver mas</a>
+  </div>
+  </div>
+  
+  <div class="card">
+    <figure>
+      <img src="https://www.profesionalreview.com/wp-content/uploads/2019/11/VSPC_Gaming-1.jpg">
+    </figure>
+    <div class="contenido-card">
+      <h3>PC GAMER</h3>
+      <p>Te ofrecemos los mejores pc gamer para tus juegos y trabajes a la velocidad de la luz.</p>
+      <a href="/html/Equipos.html">Ver mas</a>
+    </div>
+    </div>
+  
+  
+  <div class="card">
+  <figure>
+    <img src="data:image/jpeg;base64,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">
+  </figure>
+  <div class="contenido-card">
+    <h3>LAPTOPS</h3>
+    <p>Creamos tu página web utilizando las últimas tecnologías disponibles en laptops.</p>
+    <a href="/html/PORTATILES.html">Ver mas</a>
+  </div>
+  </div>
+  </div>
     <!--barra inferior "footer"-->
-   <!-- --> 
+    <!-- -->
     <footer>
       <div class="contenedor-principal">
-              <div class="contenedores-secundarios">
-                  <h5>INFORMACIÓN DE CONTACTO</h5>
-                  <a href="#"><i class="fa-solid fa-location-dot"></i> Direccion: AV. Galo Plaza
-                      Lasso N52-15 y Capitán Ramón Borja</a>
-                  <a href="#"><i class="fa-solid fa-envelope"></i> Correo Electrónico:
-                      online@fullstok.com.ec</a>
-                  <a href="#"><i class="fa-solid fa-mobile-screen"></i> (593) - 02 2573071</a>
-              </div>
-              <div class="contenedores-secundarios">
-                  <h5>REDES SOCIALES</h5>
-                  <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                  <a href="#"><i class="fa-brands fa-instagram-square"></i> Instagram</a>
-                  <a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a>
-                  <a href="#"><i class="fa-brands fa-whatsapp-square"></i> WhatsApp</a>
-              </div>
-              <div class="contenedores-secundarios">
-                  <h5>SOBRE NOSOTROS</h5>
-                  <a href="#">Acerca de</a>
-                  <a href="#">Trabaja con Nosotros</a>
-                  <a href="#">Contáctanos</a>
-              </div>
-              <div class="contenedores-secundarios">
-                  <h5>SERVICIO AL CLIENTE</h5>
-                  <a href="#">Preguntas Frecuentes</a>
-                  <a href="#">Términos y Condiciones</a>
-                  <a href="#">Politicas de Privacidad</a>
-              </div>
-              <p>Copyrigth - All rights reserved © 2022</p>
-          </div>
-      </footer>
+        <div class="contenedores-secundarios">
+          <h5>INFORMACIÓN DE CONTACTO</h5>
+          <a href="#"
+            ><i class="fa-solid fa-location-dot"></i> Direccion: AV. Galo Plaza
+            Lasso N52-15 y Capitán Ramón Borja</a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-envelope"></i> Correo Electrónico:
+            online@fullstok.com.ec</a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-mobile-screen"></i> (593) - 02 2573071</a
+          >
+        </div>
+        <div class="contenedores-secundarios">
+          <h5>REDES SOCIALES</h5>
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="#"
+            ><i class="fa-brands fa-instagram-square"></i> Instagram</a
+          >
+          <a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a>
+          <a href="#"><i class="fa-brands fa-whatsapp-square"></i> WhatsApp</a>
+        </div>
+        <div class="contenedores-secundarios">
+          <h5>SOBRE NOSOTROS</h5>
+          <a href="#">Acerca de</a>
+          <a href="#">Trabaja con Nosotros</a>
+          <a href="#">Contáctanos</a>
+        </div>
+        <div class="contenedores-secundarios">
+          <h5>SERVICIO AL CLIENTE</h5>
+          <a href="#">Preguntas Frecuentes</a>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Politicas de Privacidad</a>
+        </div>
+        <p>Copyrigth - All rights reserved © 2022</p>
+      </div>
+    </footer>
     <!--  Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
