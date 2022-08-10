@@ -23,14 +23,34 @@
   <body>
     <!--Barra de navegación-->
     <header>
-      <nav class="menu">
-        <label class="logo">Full Stock</label>
-        <ul class="items_menu" id="otroModo">
-          <li><a href="/index.html">Inicio</a></li>
-          <li><a href="/html/catalogo.html">Catálogo</a></li>
-          <li><a href="/html/login.html">Registrarse/Iniciar Sesión</a></li>
-        </ul>
-      </nav>
+      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="../img/logo.png" height="50px" alt="logo" />
+        <div class="container">
+          <a href="../index.html" class="navbar-brand">
+            <strong>Inicio</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>           
+          </button>
+          <div class="collapse navbar-collapse" id="navbarHeader">
+           
+            <a href="/html/login.html" class="nav-link active text-white"
+              >Registrarse</a>
+            <a href="/html/login.html" class="nav-link active text-white"
+              >Iniciar Sesion</a>
+           
+            
+
+          </div>
+        </div>
+      </div>
     </header>
     <br />
     <!--Contenido-->    	
