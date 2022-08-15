@@ -1,254 +1,247 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 
 /*barra de navegacion responsive*/
 
-.menu{
-    background-color:#151515;
-    height: 75px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.menu {
+  background-color: #151515;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    color: white;
-    font-size: 35px;
-    padding: 0 50px;
-    font-weight: bold;
-
+.logo {
+  color: white;
+  font-size: 35px;
+  padding: 0 50px;
+  font-weight: bold;
 }
 
-.carrito{
-    width: 50px;
-    cursor: pointer;
+.carrito {
+  width: 50px;
+  cursor: pointer;
 }
-.items_menu{
-    display: flex;
-    list-style: none;
-    margin-right:30px;
-}
-
-.items_menu li{
-    border-radius: 3px;
-    margin: 0 5px;
+.items_menu {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
 }
 
-.items_menu li a{
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    text-transform: uppercase;
-    color: white;
+.items_menu li {
+  border-radius: 3px;
+  margin: 0 5px;
 }
 
-.items_menu li label{
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    text-transform: uppercase;
-    color: white;
-    cursor: pointer;
+.items_menu li a {
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: white;
 }
 
-.items_menu li:hover{
-    background-color: #9a9a9a;
+.items_menu li label {
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
 }
 
-.btn-menu{
-    margin-right: 30px;
-    font-size: 25px;
-    color: white;
-    cursor: pointer;
-    display: none;
+.items_menu li:hover {
+  background-color: #9a9a9a;
 }
 
-ul.show{
-    top: 65px;
-    
+.btn-menu {
+  margin-right: 30px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  display: none;
 }
 
-@media screen and (max-width:952px){
-    .logo{
-        font-size: 30px;
-        padding-left: 35px;
-    }
-    .items_menu li a {
-        font-size: 16px;
-    }
+ul.show {
+  top: 65px;
+}
+
+@media screen and (max-width: 952px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 35px;
+  }
+  .items_menu li a {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 858px) {
-    .menu{
-        height: 65px;
-    }
-    .btn-menu{
-        display: inline-flex;
-    }
-    .items_menu{
-        position: fixed;
-        width: 100vw;
-        height: calc(100% - 65px);
-        background: #414141;
-        top: -100vh;
-        text-align: center;
-        transition: all .4s;
-        flex-direction: column;
-    }
-    .items_menu li{
-        margin: 30px 0 0 0;
-        line-height: 30px;
-    }
-    .items_menu li:hover{
-        background: none;
-    }
-    .items_menu li a {
-        font-size: 20px;
-        color: white;
-        font-weight: bold;
-    }
-    .items_menu li a:hover{
-        color: #9a9a9a;
-    }
-    .items_menu li label:hover{
-        color: #9a9a9a;
-    }
-    .logo{
-        font-size: 25px;
-        padding-left: 35px;
-    }
+  .menu {
+    height: 65px;
+  }
+  .btn-menu {
+    display: inline-flex;
+  }
+  .items_menu {
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background: #414141;
+    top: -100vh;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+  .items_menu li {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+  }
+  .items_menu li:hover {
+    background: none;
+  }
+  .items_menu li a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  .items_menu li a:hover {
+    color: #9a9a9a;
+  }
+  .items_menu li label:hover {
+    color: #9a9a9a;
+  }
+  .logo {
+    font-size: 25px;
+    padding-left: 35px;
+  }
 }
-@media screen and (max-width: 858px) and (orientation:landscape) {
-    .items_menu li{
-        margin: 5px 0 0 0;
-    }
-    .items_menu{
-        overflow: scroll;
-        height: calc(100% - 65px);
-    }
+@media screen and (max-width: 858px) and (orientation: landscape) {
+  .items_menu li {
+    margin: 5px 0 0 0;
+  }
+  .items_menu {
+    overflow: scroll;
+    height: calc(100% - 65px);
+  }
 }
 
 /* footer--barra inferior*/
 
-footer{
-    width: 100%;
-    padding: 30px 0px;
-    background-color: rgb(13, 13, 13);
+footer {
+  width: 100%;
+  padding: 30px 0px;
+  background-color: rgb(13, 13, 13);
 }
-.contenedor-principal{
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1300px;
-    margin-left: 20px;
+.contenedor-principal {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin-left: 20px;
 }
-.contenedor-principal a{
-    text-decoration: none;
-    color: #9a9a9a;
-    margin-top: 10px;
-}
-
- .contenedor-principal a:hover{
-    color: white;
+.contenedor-principal a {
+  text-decoration: none;
+  color: #9a9a9a;
+  margin-top: 10px;
 }
 
-.contenedor-principal i{
-    color: #9a9a9a;
+.contenedor-principal a:hover {
+  color: white;
 }
 
-.contenedores-secundarios{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
+.contenedor-principal i {
+  color: #9a9a9a;
 }
 
-.contenedor-principal p{
-    width: 100%;
-    text-align: center;
+.contenedores-secundarios {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
 }
 
-
+.contenedor-principal p {
+  width: 100%;
+  text-align: center;
+}
 
 /*catalogo*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*Cards*/
-.container-card{
-	width: 100%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
+.container-card {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
 }
-.title-cards{
-	width: 100%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 30px;
-	margin-top: 50px;
-	text-align: center;
-	color: #7a7a7a;
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 30px;
+  margin-top: 50px;
+  text-align: center;
+  color: #7a7a7a;
 }
-.card{
-	width: 100%;
-	margin: 50px;
-	border-radius: 6px;	
-	background:#fff;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;
+.card {
+  width: 100%;
+  margin: 50px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
 }
-.card:hover{
-	box-shadow: 5px 5px 20px rgba(225, 0, 0);
-	transform: translateY(-3%);
+.card:hover {
+  box-shadow: 5px 5px 20px #2a0944;
+  transform: translateY(-3%);
 }
-.card img{
-	width: 100%;
-	height: 210px;
+.card img {
+  width: 100%;
+  height: 210px;
 }
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
+.card .contenido-card {
+  padding: 15px;
+  text-align: center;
 }
-.card .contenido-card h3{
-	margin-bottom: 15px;
-	color: #7a7a7a;
+.card .contenido-card h3 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
 }
-.card .contenido-card p{
-	line-height: 1.8;
-	color: #6a6a6a;
-	font-size: 14px;
-	margin-bottom: 5px;
+.card .contenido-card p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
-.card .contenido-card a{
-	display: inline-block;
-	padding: 10px;
-	margin-top: 10px;
-	text-decoration: none;
-	color: #2fb4cc;
-	border: 1px solid #2fb4cc;
-	border-radius: 4px;
-	transition: all 400ms ease;
-	margin-bottom: 5px;
+.card .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2a0944;
+  border: 1px solid #2a0944;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
 }
-.card .contenido-card a:hover{
-	background: #2fb4cc;
-	color: #fff;
+.card .contenido-card a:hover {
+  background: #2a0944;
+  color: #fff;
 }
-@media only screen and (min-width:320px) and (max-width:768px){
-	.container-card{
-		flex-wrap: wrap;
-	}
-	.card{
-		margin: 15px;
-	}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 15px;
+  }
 }
-/*Fin-Cards*/
-
+/*Fin-catalogo*/

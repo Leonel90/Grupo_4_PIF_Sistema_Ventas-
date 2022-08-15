@@ -28,6 +28,7 @@
             <h3>Mi carrito</h3>
             <div class="card-items"></div>
             <h2>Total: <strong class="price-total">0</strong> $</h2>
+            <button href="" class="btn btn-danger btn-block">Compra</button>            
           </div>
         </div>
       </header>
@@ -90,12 +91,16 @@
       </section>
   
       <script>
+        function showCart(comprar){
+          document.getElementById("products-id").style.display = "block";
+        }
         function showCart(x) {
           document.getElementById("products-id").style.display = "block";
         }
         function closeBtn() {
           document.getElementById("products-id").style.display = "none";
         }
+       
       </script>
   
       <script src="/js/app.js"></script>

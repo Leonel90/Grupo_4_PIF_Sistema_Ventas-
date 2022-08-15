@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-sefir;
 }
 body {
   background: #efefef;
@@ -51,14 +51,14 @@ body {
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid #dfe1e6;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   background-color: rgb(2, 2, 2);
   background: #ffffff;
   color: rgb(16, 14, 14);
 }
 
-h2{
+h2 {
   text-align: center;
   color: rgb(243, 243, 243);
   font-size: 25px;
@@ -90,14 +90,14 @@ h2{
 }
 .content-modal .btn-cerrar label {
   padding: 7px 10px;
-  background-color:  #6d6161;
+  background-color: #6d6161;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
   transition: all 300ms ease;
 }
 .content-modal .btn-cerrar label:hover {
-  background-color:  #6797ce;
+  background-color: #6797ce;
 }
 .cerrar-modal {
   width: 100%;
